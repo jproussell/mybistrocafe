@@ -1,0 +1,116 @@
+/*   John Roussell
+     project.css
+     INFO1311.WW
+     Olberding
+     2/19/2022
+*/
+header h1 {padding-top: 70px;
+	padding-left: 140px;
+font-size: 1em;
+text-shadow: 8px 2px 5px #667788;
+text-indent: 90px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;}
+#wrapper {width: 100%;
+margin: auto;}
+h2 {text-shadow: 8px 2px 5px #667788;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+header {height: 163px;
+    background-image: url(logo.png);
+   background-repeat: no-repeat;
+   background-color: #4087de;
+   padding-top: 1px;}
+body {background-color: rgb(243, 144, 38);
+font-family: 'Times New Roman', Times, serif;}
+main {background-color: white;}
+main p {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+nav {font-size: 20px;
+    margin: auto;
+    padding: 10px;
+    border: solid black;}
+nav ul li a:hover {color: rgb(203, 18, 126);}
+nav ul a:link {color: rgb(34, 9, 230);}
+nav ul li a:visited {color: #a111ee;}
+nav ul {list-style-type: none;
+    background-color: #BACBE0;}
+nav li {padding-right: 10px; 
+    padding-left: 20px;}
+div {background-color: #BACBE0;}
+.photo {float: right;
+	max-width: 100%;
+	height: auto;
+	width: auto;}
+.history {max-width: 100%;
+	height: auto;
+	width: auto;}
+footer ul {list-style-type: none;}
+footer ul li a:hover {color: rgb(203, 18, 126);}
+footer ul a:link {color: rgb(34, 9, 230);}
+footer ul li a:visited {color: #a111ee;}
+@media (max-width:640px){
+	header {background-size: 50%;}
+}
+@media (max-width:800px) and (min-width:641px) {
+	header h1 {font-size: 2em;
+	padding-bottom: 100px;
+	text-align: center;
+	text-shadow: 8px 2px 5px #667788;
+	text-indent: 90px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;}
+}
+
+@media (min-width: 800px) {
+	nav li { display: inline-block;
+			 width: 7em;
+			 padding: 0.5em;
+			 border: none; 
+			}
+	nav ul { text-align: center; }
+	footer { clear: both; }
+	header h1 {text-align: center; 
+		padding: 0px 0; 
+		font-size: 4em;
+		text-shadow: 8px 2px 5px #667788;
+		text-indent: 90px;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;}
+		#wrapper {width: 80%;
+		margin: auto;}
+		h2 {text-shadow: 8px 2px 5px #667788;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+		header {height: 163px;
+			background-image: url(logo.png);
+		   background-repeat: no-repeat;
+		   background-size: auto;
+		   background-color: #4087de;
+		   padding-top: 1px;}
+		body {background-color: rgb(243, 144, 38);
+		font-family: 'Times New Roman', Times, serif;}
+		main {background-color: aliceblue;}
+		main p {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+		nav {font-size: 20px;
+			margin: auto;
+			padding: 10px;
+			border: solid black;}
+		nav ul li a:hover {color: rgb(203, 18, 126);}
+		nav ul a:link {color: rgb(34, 9, 230);}
+		nav ul li a:visited {color: #a111ee;}
+		nav ul {list-style-type: none;
+			background-color: #BACBE0;}
+		nav li {padding-right: 10px; 
+			padding-left: 20px;}
+		div {background-color: #BACBE0;}
+		.photo {float: right;
+			max-width: 100%;
+			height: auto;
+			width: auto;}
+		.history {max-width: 100%;
+			height: auto;
+			width: auto;}}
+		footer {background-color: aliceblue;}
+		footer ul {list-style-type: none;}
+		footer ul li a:hover {color: rgb(203, 18, 126);}
+		footer ul a:link {color: rgb(34, 9, 230);}
+		footer ul li a:visited {color: #a111ee;}
+@media (min-width:800px) and (max-width:1000px) {
+			header h1 {text-indent: 130px;
+			text-align: right;}
+		}

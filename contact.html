@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bistro Cafe</title>
+    <link rel="stylesheet" href="project.css">
+    <style>
+        fieldset{width: 320px; 
+        border: 2px dashed rgb(33, 17, 113);}
+        legend{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;}
+        main {padding-left: 5%;}
+    </style>
+</head>
+<!-- John Roussll
+     contact.html
+     INFO1311.WW
+     Olberding
+     2/19/2023
+-->
+<body id="wrapper">
+    <header>
+        <h1>The Bistro Cafe</h1>
+
+    </header>
+<div id="container">
+    <nav>
+        <ul>
+        <li><a href="http://student.mccinfo.net/~jproussell/project/home.html">Home</a></li>
+        <li><a href="http://student.mccinfo.net/~jproussell/project/history.html">History</a></li>
+        <li><a href="http://student.mccinfo.net/~jproussell/project/specials.html">Specials</a></li>
+        <li><a href="http://student.mccinfo.net/~jproussell/project/contact.html">Contact Us</a></li>
+        </ul>
+    </nav> 
+</div>
+    <main>
+        <br>
+        <form method="post" action="https://www.mccinfo.net/webresources/cgi-bin/formmail.asp">
+            <input name="required" type="hidden" value="email,fname,lname">
+            <input name="recipient" type="hidden" value="lolberding@mccneb.edu">
+            <input type="hidden" name="redirect" value="http://student.mccinfo.net/~jproussell/project/return.html">
+            <label for="fname">First Name:</label><br>
+            <input type="text" name="fname" id="fname" required><br><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" name="lname" id="lname" required><br><br>
+            <label for="email">E-mail:</label><br>
+            <input type="email" name="email" id="email" required><br><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" name="phone" id="phone" required><br><br>
+            <fieldset>
+            <legend>Please select the method and time to contact you</legend>
+            <input type="checkbox" name="box" id="box" value="yes">
+            Phone<br>
+            <input type="checkbox" name="classical" id="classical" value="yes">
+            Text<br>
+            <input type="checkbox" name="rock" id="rock" value="yes">
+            Email<br>
+            <input type="checkbox" name="folk" id="folk" value="yes">
+            Morning<br>
+            <input type="checkbox" name="rap" id="rap" value="yes">
+            Afternoon<br>
+            <input type="checkbox" name="other" id="other" value="yes">
+            Evening<br>
+            </fieldset><br>
+            Please list any comments or questions you have below.<br>
+            <textarea name="textbox" id="textbox" cols="60" rows="8"></textarea><br>
+            <input type="submit" name="sub" id="sub" value="Submit">
+            <input type="reset" name="res" id="res" value="Clear Form">
+
+        </form>
+        <br><br>
+    </main>
+    <footer>
+        <br><br>
+            <hr><p>Copyright &copy; 2022<a href="mailto:jproussell@mail.mccneb.edu">Email Me John Roussell</a></p>
+            <ul>
+            <li><a href="http://student.mccinfo.net/~jproussell/project/home.html">Home</a></li>
+            <li><a href="http://student.mccinfo.net/~jproussell/project/history.html">History</a></li>
+            <li><a href="http://student.mccinfo.net/~jproussell/project/specials.html">Specials</a></li>
+            <li><a href="http://student.mccinfo.net/~jproussell/project/contact.html">Contact Us</a></li>
+            </ul>
+        
+    </footer>   
+</body>
+</html>
